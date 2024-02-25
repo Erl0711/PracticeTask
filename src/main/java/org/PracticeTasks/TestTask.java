@@ -1,2 +1,6 @@
-package org.PracticeTasks;public class TestTask {
+package org.PracticeTasks;
+
+public class TestTask {
+
+
 }

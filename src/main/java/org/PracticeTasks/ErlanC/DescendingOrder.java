@@ -24,5 +24,4 @@ public class DescendingOrder {
         }
         return Integer.parseInt(temp);
     }
-
 }

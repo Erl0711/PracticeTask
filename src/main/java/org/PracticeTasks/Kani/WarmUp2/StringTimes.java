@@ -1,4 +1,4 @@
-package org.PracticeTasks.Kani;
+package org.PracticeTasks.Kani.WarmUp2;
 
 public class StringTimes {
     public static void main(String[] args) {

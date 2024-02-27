@@ -1,6 +1,6 @@
 package org.PracticeTasks.AsanC.warmup1;
 
-public class SleepIn {
+public class _1_SleepIn {
     public static void main(String[] args) {
         System.out.println(sleepIn(true,true)); // ture
     }

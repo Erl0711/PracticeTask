@@ -2,7 +2,7 @@ package org.PracticeTasks.ErlanC;
 
 import java.util.Arrays;
 
-public class DescendingOrder {
+public class CodeWar1 {
     public static void main(String[] args) {
         System.out.println(sortDesc(123456789));
         System.out.println(sortDesc(145263 ));
@@ -24,5 +24,4 @@ public class DescendingOrder {
         }
         return Integer.parseInt(temp);
     }
-
 }

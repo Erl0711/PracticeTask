@@ -2,7 +2,7 @@ package org.PracticeTasks.ErlanC;
 
 import java.util.Arrays;
 
-public class Counter {
+public class CodeWar2 {
     public static void main(String[] args) {
         Boolean [] arr = {true,  true,  true,  false,
                 true,  true,  true,  true ,

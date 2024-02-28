@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 
 
-
 public class CodeWar9 {
 
     /*
@@ -16,14 +15,14 @@ public class CodeWar9 {
      */
 
     public static int sum(int[] numbers) {
-        if(numbers == null || numbers.length == 0){
+        if (numbers == null || numbers.length == 0) {
             return 0;
         }
         int sum = 0;
-       Arrays.sort(numbers);
-       for(int i = 1; i < numbers.length; i++){
-           sum += numbers[i];
-       }
-       return sum;
+        Arrays.sort(numbers);
+        for (int i = 1; i < numbers.length; i++) {
+            sum += numbers[i];
+        }
+        return sum;
     }
 }

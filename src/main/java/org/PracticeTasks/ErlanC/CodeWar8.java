@@ -9,17 +9,19 @@ public class CodeWar8 {
     Первый объект в массиве должен быть экземпляром класса Man. Второй должен быть экземпляром класса Woman.
     Оба объекта должны быть подклассами Human. Ваша задача - реализовать классы Human, Man и Woman.
      */
-    public static Human[] create(){
-        return new Human[] {new Man(),new Woman()};
+    public static Human[] create() {
+        return new Human[]{new Man(), new Woman()};
     }
 
-    public static class Human{
+    public static class Human {
 
     }
-    public static class Man extends Human{
+
+    public static class Man extends Human {
 
     }
-    public static class Woman extends Human{
+
+    public static class Woman extends Human {
 
     }
 }

@@ -1,4 +1,4 @@
-package org.PracticeTasks.Zhyldyz;
+package org.PracticeTasks.zhyldyz;
 
 public class Task {
     public static void main(String[] args) {

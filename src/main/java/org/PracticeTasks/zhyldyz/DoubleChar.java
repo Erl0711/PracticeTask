@@ -1,4 +1,4 @@
-package org.PracticeTasks.Zhyldyz;
+package org.PracticeTasks.zhyldyz;
 
 public class DoubleChar {
     public static void main(String[] args) {

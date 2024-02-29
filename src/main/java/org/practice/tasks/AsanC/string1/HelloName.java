@@ -1,4 +1,4 @@
-package org.PracticeTasks.AsanC.string1;
+package org.practice.tasks.AsanC.string1;
 
 public class HelloName {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.PracticeTasks.ErlanC;
+package org.practice.tasks.ErlanC;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

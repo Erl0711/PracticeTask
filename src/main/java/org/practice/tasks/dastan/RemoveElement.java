@@ -1,4 +1,4 @@
-package org.PracticeTasks.dastan;
+package org.practice.tasks.dastan;
 
 public class RemoveElement {
     /**

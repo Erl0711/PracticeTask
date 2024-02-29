@@ -1,4 +1,4 @@
-package org.PracticeTasks;
+package org.practice.tasks;
 
 public class TestTask {
 

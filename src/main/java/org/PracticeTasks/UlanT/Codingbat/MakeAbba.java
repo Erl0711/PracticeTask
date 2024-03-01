@@ -1,6 +1,6 @@
-package org.PracticeTasks;
+package org.PracticeTasks.UlanT.Codingbat;
 
-public class TestTask {
+public class MakeAbba {
     public static void main(String[] args) {
         System.out.println(makeAbba("Salam", "Karakol"));
     }

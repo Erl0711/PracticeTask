@@ -6,7 +6,7 @@ package org.practice.tasks.Gulaiym;
 //        firstLast6([1, 2, 6]) → true
 //        firstLast6([6, 1, 2, 3]) → true
 //        firstLast6([13, 6, 1, 2, 3]) → false
-public class Arrays1 {
+public class Arrays1_firstLast {
     public static void main(String[] args) {
         int[] array1 = {1, 2, 6};
         int[] array2 = {6, 1, 2, 3};

@@ -1,4 +1,4 @@
-package org.PracticeTasks.AigulM.leetCode;
+package org.practice.tasks.AigulM.leetCode;
 
 
 public class LongestCommonPrefix {

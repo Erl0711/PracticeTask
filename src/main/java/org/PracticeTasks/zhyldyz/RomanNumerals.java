@@ -1,6 +1,6 @@
 package org.PracticeTasks.zhyldyz;
 
-public class Task {
+public class RomanNumerals {
     public static void main(String[] args) {
         System.out.println(romanToInt("IX"));
         System.out.println(romanToInt("XX"));

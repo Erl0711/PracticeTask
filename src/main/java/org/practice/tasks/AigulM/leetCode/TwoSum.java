@@ -1,4 +1,4 @@
-package org.PracticeTasks.AigulM.leetCode;
+package org.practice.tasks.AigulM.leetCode;
 
 /* Given an array of integers nums and an integer target,
     return indices of the two numbers such that they add up to target.

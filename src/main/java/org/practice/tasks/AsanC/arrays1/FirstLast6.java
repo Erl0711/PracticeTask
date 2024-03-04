@@ -1,4 +1,4 @@
-package org.PracticeTasks.AsanC.arrays1;
+package org.practice.tasks.AsanC.arrays1;
 
 public class FirstLast6 {
     

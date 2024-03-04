@@ -1,4 +1,4 @@
-package org.PracticeTasks.Kani.Array1;
+package org.practice.tasks.Kani.Array1;
 
 public class Sum2 {
     public static void main(String[] args) {

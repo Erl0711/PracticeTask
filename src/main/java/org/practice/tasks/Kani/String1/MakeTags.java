@@ -1,4 +1,4 @@
-package org.PracticeTasks.Kani.String1;
+package org.practice.tasks.Kani.String1;
 
 public class MakeTags {
     public static void main(String[] args) {

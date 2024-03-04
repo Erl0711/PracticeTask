@@ -1,4 +1,4 @@
-package org.PracticeTasks.Baha;
+package org.practice.tasks.Baha;
 import java.util.ArrayList;
 import java.util.List;
 

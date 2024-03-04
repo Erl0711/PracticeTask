@@ -1,4 +1,4 @@
-package org.PracticeTasks.Kani.Map1;
+package org.practice.tasks.Kani.Map1;
 
 import java.util.HashMap;
 import java.util.Map;

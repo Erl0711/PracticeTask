@@ -1,4 +1,4 @@
-package org.PracticeTasks.Kani.Logic2;
+package org.practice.tasks.Kani.Logic2;
 
 public class MakeBricks {
     public static void main(String[] args) {

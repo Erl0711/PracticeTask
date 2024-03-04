@@ -1,4 +1,4 @@
-package org.practice.tasks.ErlanC.CodeWars;
+package org.practice.tasks.ErlanC;
 
 public class CodeWar8 {
 

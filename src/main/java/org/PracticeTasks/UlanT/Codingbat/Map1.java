@@ -21,6 +21,12 @@ public class Map1 {
         inputMap3.put("ice cream", "peanuts");
         inputMap3.put("pancake", "syrup");
         System.out.println(topping1(inputMap3));
+
+        Map<String, String> food = new HashMap<>();
+        food.put("ice cream", "cherry");
+        food.put("spinach", "dirt");
+
+        System.out.println("Before modification: " + topping2(food));
     }
     // ключь b копирует значение с ключа а и удаляет ключь с если он есть
     public static Map<String, String> mapShare(Map<String, String> map) {
@@ -47,6 +53,17 @@ public class Map1 {
             map.put("ice cream", "cherry");
         }
         map.put("bread", "butter");
+        return map;
+    }
+    //если мар содержит ключь "ice cream", то добавить ключь "yogurt" со значением мороженного
+    //так же при наличии ключа шпината поменять значение на орехи
+    public static Map<String, String> topping2(Map<String, String> map) {
+        if (map.containsKey("ice cream")) {
+            map.put("yogurt", map.get("ice cream"));
+        }
+        if (map.containsKey("spinach")) {
+            map.put("spinach", "nuts");
+        }
         return map;
     }
 

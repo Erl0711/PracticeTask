@@ -1,6 +1,6 @@
 package org.practice.tasks.AsanC.warmup1;
 
-public class SumDouble {
+public class _3_SumDouble {
     public static void main(String[] args) {
         /*
         Given two int values, return their sum.

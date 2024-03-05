@@ -1,6 +1,6 @@
 package org.practice.tasks.AsanC.warmup1;
 
-public class Diff21 {
+public class _4_Diff21 {
     public static void main(String[] args) {
          /*Given an int n, return the absolute difference between n and 21,
          except return double the absolute difference if n is over 21.

@@ -1,4 +1,4 @@
-package org.PracticeTasks.zhyldyz;
+package org.practice.tasks.zhyldyz;
 
 public class DisemvowelTrolls {
     public static void main(String[] args) {

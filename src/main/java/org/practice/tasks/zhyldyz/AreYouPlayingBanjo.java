@@ -1,4 +1,4 @@
-package org.PracticeTasks.zhyldyz;
+package org.practice.tasks.zhyldyz;
 
 public class AreYouPlayingBanjo {
     public static void main(String[] args) {

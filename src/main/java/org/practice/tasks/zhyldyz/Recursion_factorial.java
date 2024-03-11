@@ -1,4 +1,4 @@
-package org.PracticeTasks.zhyldyz;
+package org.practice.tasks.zhyldyz;
 
 public class Recursion_factorial {
     public int factorial(int n) {

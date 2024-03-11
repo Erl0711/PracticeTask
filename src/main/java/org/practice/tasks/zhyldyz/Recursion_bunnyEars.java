@@ -1,4 +1,4 @@
-package org.PracticeTasks.zhyldyz;
+package org.practice.tasks.zhyldyz;
 
 public class Recursion_bunnyEars {
     public int bunnyEars(int bunnies) {

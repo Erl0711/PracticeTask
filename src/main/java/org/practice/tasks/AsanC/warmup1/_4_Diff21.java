@@ -7,6 +7,7 @@ public class _4_Diff21 {
          */
         System.out.println(diff21(22));
     }
+
     public static int diff21(int n) {
         if(21<n ){
             return 2 * (n - 21);

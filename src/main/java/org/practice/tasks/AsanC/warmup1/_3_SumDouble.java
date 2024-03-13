@@ -8,6 +8,7 @@ public class _3_SumDouble {
          */
         System.out.println(sumDouble(2,3));
     }
+
     public static int sumDouble(int a, int b) {
         if(a == b){
             return 2 * (a + b);

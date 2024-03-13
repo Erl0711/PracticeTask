@@ -7,6 +7,7 @@ public class _6_Makes10 {
          */
         System.out.println(makes10(1,9)); // true;
     }
+
     public static boolean makes10(int a, int b) {
         int sumAB = a + b;
         if(a == 10 || b == 10 || sumAB == 10){

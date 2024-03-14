@@ -12,9 +12,10 @@ Given a string of even length, return the first half.
 
     public static String firstHalf(String str) {
         //if(str.length() % 2 == 0){
-        if (str.length()>=2){
-            int res = str.length()/2;
-            return str.substring(0,res);
-        }return str;
+        if (str.length() >= 2) {
+            int res = str.length() / 2;
+            return str.substring(0, res);
+        }
+        return str;
     }
 }

@@ -6,7 +6,7 @@ public class StringTimes {
         Given a string and a non-negative int n,
         return a larger string that is n copies of the original string.
          */
-        System.out.println(stringTimes("Asan",3));
+        System.out.println(stringTimes("Asan", 3));
     }
 
     public static String stringTimes(String str, int n) {

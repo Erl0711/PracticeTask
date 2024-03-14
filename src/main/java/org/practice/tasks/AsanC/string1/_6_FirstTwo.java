@@ -14,9 +14,10 @@ Note that str.length() returns the length of a string.
     }
 
     public static String firstTwo(String str) {
-        if(str.length() >= 2){
-            String res = str.substring(0,2);
+        if (str.length() >= 2) {
+            String res = str.substring(0, 2);
             return res;
-        }return str;
+        }
+        return str;
     }
 }

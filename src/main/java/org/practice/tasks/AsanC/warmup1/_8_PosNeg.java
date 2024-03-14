@@ -7,12 +7,13 @@ public class _8_PosNeg {
         and one is positive. Except if the parameter "negative" is true,
          then return true only if both are negative.
          */
-        System.out.println(posNeg(1,-4,false));  // true
+        System.out.println(posNeg(1, -4, false));  // true
     }
 
     public static boolean posNeg(int a, int b, boolean negative) {
-        if(a > 0 && b < 0 && !negative ||a < 0 && b > 0 && !negative || a < 0 && b < 0 && negative){
+        if (a > 0 && b < 0 && !negative || a < 0 && b > 0 && !negative || a < 0 && b < 0 && negative) {
             return true;
-        }return false;
+        }
+        return false;
     }
 }

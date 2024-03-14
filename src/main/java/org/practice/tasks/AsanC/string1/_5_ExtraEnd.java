@@ -10,7 +10,7 @@ public class _5_ExtraEnd {
     }
 
     public static String extraEnd(String str) {
-        String res = str.substring(str.length()-2);
+        String res = str.substring(str.length() - 2);
         return res + res + res;
     }
 }

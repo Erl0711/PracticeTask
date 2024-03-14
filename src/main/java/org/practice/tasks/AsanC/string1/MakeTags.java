@@ -9,7 +9,7 @@ public class MakeTags {
          Given tag and word strings, create the HTML string
          with tags around the word, e.g. "<i>Yay</i>".
          */
-        System.out.println(makeTags("i","Yay"));
+        System.out.println(makeTags("i", "Yay"));
     }
 
     public static String makeTags(String tag, String word) {

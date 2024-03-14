@@ -2,8 +2,13 @@ package org.practice.tasks.AsanC.warmup2;
 
 public class StringTimes {
     public static void main(String[] args) {
-        System.out.println(stringTimes("Asan",3));
+        /*
+        Given a string and a non-negative int n,
+        return a larger string that is n copies of the original string.
+         */
+        System.out.println(stringTimes("Asan", 3));
     }
+
     public static String stringTimes(String str, int n) {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < n; i++) {

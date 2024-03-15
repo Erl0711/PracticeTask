@@ -3,6 +3,12 @@ package org.practice.tasks.ErlanC.coding_bat;
 import java.util.Arrays;
 
 public class SeriesUp {
+    /*
+    Учитывая n>=0, создайте массив с шаблоном {1, 1, 2, 1, 2, 3, ... 1, 2, 3 .. n}
+    (добавлены пробелы, чтобы показать группировку). Обратите внимание,
+     что длина массива будет равна 1 + 2 + 3 ... + n, что, как известно, в сумме дает ровно n*(n + 1)/2.
+     */
+
     public static void main(String[] args) {
         System.out.println(Arrays.toString(seriesUp(3)));
     }

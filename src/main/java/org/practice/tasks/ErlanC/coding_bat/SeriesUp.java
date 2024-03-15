@@ -6,6 +6,7 @@ public class SeriesUp {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(seriesUp(3)));
     }
+
     public static int[] seriesUp(int n) {
         int[] arr = new int[n * (n + 1) / 2];
         int val = 1;

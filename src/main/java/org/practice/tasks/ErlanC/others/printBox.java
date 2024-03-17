@@ -2,7 +2,7 @@ package org.practice.tasks.ErlanC.others;
 
 public class printBox {
     public static void main(String[] args) {
-        System.out.println(getBox("Hello,World", 17, 5));
+        System.out.println(getBox("Hello", 10, 7));
     }
 
     public static boolean getBox(String str, int xlen, int ylen) {

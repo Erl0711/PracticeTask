@@ -1,4 +1,4 @@
-package org.practice.tasks.Gulaiym;
+package org.practice.tasks.Gulaiym.Arrays1;
 public class Arrays1_makePi {
    /* Возвращает массив int длиной 3,
     содержащий первые 3 цифры числа pi, {3, 1, 4}.

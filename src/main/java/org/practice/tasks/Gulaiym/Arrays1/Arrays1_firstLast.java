@@ -1,4 +1,4 @@
-package org.practice.tasks.Gulaiym;
+package org.practice.tasks.Gulaiym.Arrays1;
 public class Arrays1_firstLast {
       /*      Учитывая массив целых чисел, верните true,
              если 6 появляется как первый или последний элемент массива.

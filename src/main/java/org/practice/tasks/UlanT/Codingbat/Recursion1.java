@@ -11,6 +11,7 @@ public class Recursion1 {
         if(n < 10) return n;
         return (n % 10) + sumDigits(n/10);
     }
+//recursion
     public static int bunnyEars(int bunnies) {
         if (bunnies == 0) return 0;
         return bunnyEars(bunnies -1)+2;

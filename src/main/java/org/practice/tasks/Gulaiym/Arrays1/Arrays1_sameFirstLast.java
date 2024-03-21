@@ -1,4 +1,4 @@
-package org.practice.tasks.Gulaiym;
+package org.practice.tasks.Gulaiym.Arrays1;
 
 public class Arrays1_sameFirstLast {
    /* Учитывая массив целых чисел, верните true,

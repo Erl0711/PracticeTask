@@ -8,17 +8,17 @@ package org.practice.tasks.Gulaiym.String2;
     */
 public class repeatEnd {
     public static void main(String[] args) {
-// Примеры использования функции
+           // Примеры использования функции
         System.out.println(repeatEnd("Hello", 3));
         System.out.println(repeatEnd("Hello", 2));
         System.out.println(repeatEnd("Hello", 1));
-    }
-
-    public static String repeatEnd(String str, int n) {
-        String d = "";
-        for (int i = 0; i < n; i++) {
-            d += str.substring(str.length() - n);
+    }public static String repeatEnd(String str, int n) {
+        String result = "";
+        if (n == 0 || n <= str.length()) {
+            for (int i = 0; i < n; i++) {
+                result += str.substring(str.length() - n);
+            }
         }
-        return d;
+        return result;
     }
 }

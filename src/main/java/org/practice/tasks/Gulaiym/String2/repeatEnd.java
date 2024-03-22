@@ -13,12 +13,12 @@ public class repeatEnd {
         System.out.println(repeatEnd("Hello", 2));
         System.out.println(repeatEnd("Hello", 1));
     }
+
     public static String repeatEnd(String str, int n) {
-        StringBuilder result = new StringBuilder();
-        String endSubstring = str.substring(str.length() - n);
+        String d = "";
         for (int i = 0; i < n; i++) {
-            result.append(endSubstring);
+            d += str.substring(str.length() - n);
         }
-        return result.toString();
+        return d;
     }
-    }
+}

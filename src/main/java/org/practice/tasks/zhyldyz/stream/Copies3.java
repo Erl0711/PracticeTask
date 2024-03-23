@@ -1,6 +1,7 @@
 package org.practice.tasks.zhyldyz.stream;
 
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class Copies3 {
@@ -11,4 +12,5 @@ public class Copies3 {
                 .collect(Collectors.toList());
         return strings;
     }
+
 }

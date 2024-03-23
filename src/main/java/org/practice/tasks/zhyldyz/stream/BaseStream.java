@@ -24,5 +24,17 @@ public class BaseStream {
         List<String> list = Arrays.asList("Heloo", "HYuj");
         List<String> result5= Lower.lower(list);
         System.out.println(result5);
+
+        List<Integer> nums3= Arrays.asList(1,-2,-4,5);
+        List<Integer> result6= NoNeg.noNeg(nums3);
+        System.out.println(result6);
+
+        List<Integer> nums4= Arrays.asList(1,29,34,59,14,18,20);
+        List<Integer> result7= NoNeg.no9(nums4);
+        System.out.println(result7);
+
+        List<Integer> result8 = NoNeg.noTeen(nums4);
+        System.out.println(result8);
+
     }
 }

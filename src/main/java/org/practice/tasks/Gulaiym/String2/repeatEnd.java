@@ -12,7 +12,8 @@ public class repeatEnd {
         System.out.println(repeatEnd("Hello", 3));
         System.out.println(repeatEnd("Hello", 2));
         System.out.println(repeatEnd("Hello", 1));
-    }public static String repeatEnd(String str, int n) {
+    }
+    public static String repeatEnd(String str, int n) {
         String result = "";
         if (n == 0 || n <= str.length()) {
             for (int i = 0; i < n; i++) {

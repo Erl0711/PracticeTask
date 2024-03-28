@@ -1,6 +1,9 @@
 package org.practice.tasks.zhyldyz.stream;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class BaseStream {
     public static void main(String[] args) {

@@ -14,16 +14,19 @@ public class Functional1 {
         System.out.println(starNums);
 
     }
+
     public static List<Integer> square(List<Integer> nums) {
-        nums.replaceAll (n -> n * n);
+        nums.replaceAll(n -> n * n);
         return nums;
     }
+
     public static List<String> addStar(List<String> strings) {
-        strings.replaceAll (n -> n + "*");
+        strings.replaceAll(n -> n + "*");
         return strings;
     }
+
     public List<String> copies3(List<String> strings) {
-        strings.replaceAll (n -> n +  n + n);
+        strings.replaceAll(n -> n + n + n);
         return strings;
     }
 }

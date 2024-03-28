@@ -10,15 +10,13 @@ public class mapBully {
         inputMap.put("a", "candy");
         inputMap.put("b", "dirt");
         System.out.println(mapBully(inputMap));
-
-
     }
+
     public static Map<String, String> mapBully(Map<String, String> map) {
         if (map.containsKey("a")) {
             map.put("b", map.get("a"));
-            map.put("a","");
+            map.put("a", "");
         }
         return map;
     }
-
 }

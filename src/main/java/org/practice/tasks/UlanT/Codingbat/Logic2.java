@@ -87,6 +87,7 @@ public class Logic2 {
         }
         return false;
     }
+
     public static int makeChocolate(int small, int big, int goal) {
         while (goal >= 5 && big > 0) {
             goal -= 5;
@@ -96,5 +97,4 @@ public class Logic2 {
             return goal;
         else return -1;
     }
-
 }

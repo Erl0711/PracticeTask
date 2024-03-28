@@ -5,7 +5,6 @@ public class MakeAbba {
         System.out.println(makeAbba("Salam", "Karakol"));
     }
 
-
     public static String makeAbba(String a, String b) {
         return a + b +b + a;
     }

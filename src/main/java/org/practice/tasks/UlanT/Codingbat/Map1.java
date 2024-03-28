@@ -17,7 +17,7 @@ public class Map1 {
         inputMap2.put("c", "nope");
         System.out.println(mapAB(inputMap2));
 
-        Map<String,String> inputMap3 = new HashMap<>();
+        Map<String, String> inputMap3 = new HashMap<>();
         inputMap3.put("ice cream", "peanuts");
         inputMap3.put("pancake", "syrup");
         System.out.println(topping1(inputMap3));
@@ -30,6 +30,7 @@ public class Map1 {
         Map<String, String> salat = new HashMap<>();
         salat.put("potato", "ketchup");
     }
+
     // ключь b копирует значение с ключа а и удаляет ключь с если он есть
     public static Map<String, String> mapShare(Map<String, String> map) {
         if (map.containsKey("a")) {
@@ -38,6 +39,7 @@ public class Map1 {
         map.remove("c");
         return map;
     }
+
     //нужно создать новый ключь, взяв данные с ключей а и b со значением
     public static Map<String, String> mapAB(Map<String, String> map) {
         if (map.containsKey("a") && map.containsKey("b")) {
@@ -51,12 +53,13 @@ public class Map1 {
     //нужно добавить ключ Хлеб со значение Масло
     //в ключе мороженое установить значение Вишня
     public static Map<String, String> topping1(Map<String, String> map) {
-        if (map.containsKey("ice cream")){
+        if (map.containsKey("ice cream")) {
             map.put("ice cream", "cherry");
         }
         map.put("bread", "butter");
         return map;
     }
+
     //если мар содержит ключь "ice cream", то добавить ключь "yogurt" со значением мороженного
     //так же при наличии ключа шпината поменять значение на орехи
     public static Map<String, String> topping2(Map<String, String> map) {
@@ -70,12 +73,12 @@ public class Map1 {
     }
 
     public static Map<String, String> topping3(Map<String, String> map) {
-        if (map.containsKey("potato")){
+        if (map.containsKey("potato")) {
             map.put("fries", map.get("potato"));
         }
-        if(map.containsKey("salad")){
+        if (map.containsKey("salad")) {
             map.put("spinach", map.get("salad"));
-        }return map;
+        }
+        return map;
     }
-
 }

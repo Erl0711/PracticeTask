@@ -7,16 +7,14 @@ public class СountTriple {
         System.out.println(countTriple("a")); // Вывод: 0
 
     }
-
     /*Мы скажем, что «тройка» в строке — это символ, встречающийся три раза подряд.
     Возвращает количество троек в заданной строке. Тройки могут перекрываться.
      */
     public static int countTriple(String str) {
         int count = 0;
 
-        for(int i = 0; i <= str.length() - 3; i++) {
-            if(str.charAt(i) == str.charAt(i+1) &&
-                    str.charAt(i) == str.charAt(i+2))
+        for (int i = 0; i <= str.length() - 3; i++) {
+            if (str.charAt(i) == str.charAt(i + 1) && str.charAt(i) == str.charAt(i + 2))
                 count++;
         }
         return count;

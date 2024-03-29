@@ -6,5 +6,6 @@ public class MainClass {
         System.out.println(putFront.revStr("John")); //nhoJ
         System.out.println(putFront.revStr("Hello"));  //olleH
         System.out.println(putFront.revStr("456789")); //987654
+        System.out.println(putFront.revStr2("Guli"));  //iluG
     }
 }

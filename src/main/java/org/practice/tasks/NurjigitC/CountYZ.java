@@ -1,9 +1,7 @@
 package org.practice.tasks.NurjigitC;
 
 public class CountYZ {
-    public static void main(String[] args) {
-        System.out.println(countYZ("fez day"));
-    }
+
 
     public static int countYZ(String str) {
         int count = 0;

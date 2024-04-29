@@ -1,10 +1,6 @@
 package org.practice.tasks.UlanT.Codingbat;
 
 public class Recursion1 {
-    public static void main(String[] args) {
-        System.out.println(sumDigits(34));
-        System.out.println(bunnyEars(23));
-    }
 
     public static int sumDigits(int n) {
         if (n < 10) return n;

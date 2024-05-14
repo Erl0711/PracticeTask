@@ -1,4 +1,4 @@
-package org.practice.tasks.AsanC.warmup2;
+package org.practice.tasks.asan.warmup2;
 
 public class StringTimes {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.practice.tasks.AsanC.string1;
+package org.practice.tasks.asan.string1;
 
 public class _2_MakeAbba {
     public static void main(String[] args) {

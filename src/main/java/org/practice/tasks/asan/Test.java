@@ -1,4 +1,4 @@
-package org.practice.tasks.AsanC;
+package org.practice.tasks.asan;
 
 public class Test {
 }

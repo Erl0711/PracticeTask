@@ -1,4 +1,4 @@
-package org.practice.tasks.AsanC.warmup1;
+package org.practice.tasks.asan.warmup1;
 
 public class _4_Diff21 {
     public static void main(String[] args) {

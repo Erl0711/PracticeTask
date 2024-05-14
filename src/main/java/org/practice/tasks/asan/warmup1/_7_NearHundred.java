@@ -1,4 +1,4 @@
-package org.practice.tasks.AsanC.warmup1;
+package org.practice.tasks.asan.warmup1;
 
 public class _7_NearHundred {
     public static void main(String[] args) {

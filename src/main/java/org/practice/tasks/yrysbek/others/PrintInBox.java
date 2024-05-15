@@ -17,4 +17,8 @@ public class PrintInBox {
             System.out.print("\n");
         }
     }
+
+    public static void main(String[] args) {
+        System.out.println("testing");
+    }
 }

@@ -5,7 +5,10 @@ public class printBox {
         System.out.println(getBox("Hello", 10, 7));
     }
 
+
     public static boolean getBox(String str, int xlen, int ylen) {
+
+        System.out.println("Erlan");
 
         for (int y = 0; y < ylen; y++) {
             for (int x = 0; x < xlen; x++) {
@@ -24,4 +27,5 @@ public class printBox {
         }
         return false;
     }
+
 }

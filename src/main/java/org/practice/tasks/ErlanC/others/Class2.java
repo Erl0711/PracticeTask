@@ -1,2 +1,4 @@
-package org.practice.tasks.ErlanC.others;public class Class2 {
+package org.practice.tasks.ErlanC.others;
+
+public class Class2 {
 }

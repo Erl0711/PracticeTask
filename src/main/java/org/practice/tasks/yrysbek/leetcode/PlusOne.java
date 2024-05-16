@@ -37,8 +37,11 @@ public class PlusOne extends BaseLeetCode {
      */
 
 
-    
 
+
+    public static void main(String[] args) {
+        System.out.println("2");
+    }
     public int[] plusOne(int[] digits) {
         for (int i = digits.length - 1; i >= 0; i--) {
             if (digits[i] + 1 != 10) {

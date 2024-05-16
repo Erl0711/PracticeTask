@@ -1,6 +1,7 @@
 package org.practice.tasks.yrysbek.leetcode;
 
 public class PlusOne extends BaseLeetCode {
+//test conflict
 
     /**
      You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the
@@ -34,6 +35,10 @@ public class PlusOne extends BaseLeetCode {
      0 <= digits[i] <= 9
      digits does not contain any leading 0's.
      */
+
+
+
+
     public static void main(String[] args) {
         System.out.println("2");
     }
@@ -43,7 +48,6 @@ public class PlusOne extends BaseLeetCode {
                 digits[i] = digits[i] + 1;
                 return digits;
             } else {
-
                 digits[i] = 0;
             }
         }
@@ -53,7 +57,6 @@ public class PlusOne extends BaseLeetCode {
         } else {
             int[] newDigits = new int[digits.length + 1];
             newDigits[0] = 1;
-
             return newDigits;
         }
     }

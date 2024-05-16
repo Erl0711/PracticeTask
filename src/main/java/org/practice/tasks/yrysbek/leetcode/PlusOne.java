@@ -35,6 +35,9 @@ public class PlusOne extends BaseLeetCode {
      0 <= digits[i] <= 9
      digits does not contain any leading 0's.
      */
+public void test3(String[] args) {
+        System.out.println("conflict");
+    }
 
     public int[] plusOne(int[] digits) {
         for (int i = digits.length - 1; i >= 0; i--) {
